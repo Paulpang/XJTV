@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, ‘8.0’
+use_frameworks!
+
+
+target 'XJ直播' do
+    
+pod 'Alamofire'
+pod 'Kingfisher'
+pod 'SnapKit'
+pod 'SDCycleScrollView'
+pod 'ProtocolBuffers-Swift', '~> 3.0.6'
+pod 'MJExtension'
+
+
+end

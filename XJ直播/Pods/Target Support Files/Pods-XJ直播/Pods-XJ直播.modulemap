@@ -1,0 +1,6 @@
+framework module Pods_XJ__ {
+  umbrella header "Pods-XJ直播-umbrella.h"
+
+  export *
+  module * { export * }
+}

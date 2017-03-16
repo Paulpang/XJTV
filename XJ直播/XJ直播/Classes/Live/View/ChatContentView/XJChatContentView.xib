@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XJChatContentView" customModule="XJ直播" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="302" height="187"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="isw-tl-f0g">
+                    <rect key="frame" x="0.0" y="0.0" width="302" height="187"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="isw-tl-f0g" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AM3-0J-h8A"/>
+                <constraint firstAttribute="trailing" secondItem="isw-tl-f0g" secondAttribute="trailing" id="Nyf-hc-hbG"/>
+                <constraint firstAttribute="bottom" secondItem="isw-tl-f0g" secondAttribute="bottom" id="WxO-RH-0w1"/>
+                <constraint firstItem="isw-tl-f0g" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cth-Pw-IMV"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tableView" destination="isw-tl-f0g" id="kCc-C8-Bcy"/>
+            </connections>
+            <point key="canvasLocation" x="-133" y="121"/>
+        </view>
+    </objects>
+</document>

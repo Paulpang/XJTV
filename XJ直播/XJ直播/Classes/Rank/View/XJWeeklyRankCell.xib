@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="mo2-A9-9ew" customClass="XJWeeklyRankCell" customModule="XJ直播" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mo2-A9-9ew" id="zbl-Ep-YiV">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yoI-Bh-xZ5">
+                        <rect key="frame" x="10" y="8" width="33" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="yoI-Bh-xZ5" secondAttribute="height" multiplier="1:1" id="KkF-W7-qcE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="肥皂" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiG-xV-cKo">
+                        <rect key="frame" x="53" y="8" width="27" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本周获得 x554个" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BvV-zv-PWZ">
+                        <rect key="frame" x="53" y="27" width="87" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小五战为简单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csY-aU-ngX">
+                        <rect key="frame" x="220" y="17" width="80" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="yoI-Bh-xZ5" firstAttribute="leading" secondItem="zbl-Ep-YiV" secondAttribute="leading" constant="10" id="5Ig-uU-PCA"/>
+                    <constraint firstItem="yiG-xV-cKo" firstAttribute="top" secondItem="yoI-Bh-xZ5" secondAttribute="top" id="8zq-Q3-X6h"/>
+                    <constraint firstItem="yiG-xV-cKo" firstAttribute="leading" secondItem="yoI-Bh-xZ5" secondAttribute="trailing" constant="10" id="AC5-MX-PHW"/>
+                    <constraint firstAttribute="trailing" secondItem="csY-aU-ngX" secondAttribute="trailing" constant="20" id="Dve-Xa-goh"/>
+                    <constraint firstItem="BvV-zv-PWZ" firstAttribute="bottom" secondItem="yoI-Bh-xZ5" secondAttribute="bottom" id="FRi-gn-zKO"/>
+                    <constraint firstAttribute="bottom" secondItem="yoI-Bh-xZ5" secondAttribute="bottom" constant="8" id="YXI-m7-jLb"/>
+                    <constraint firstItem="yoI-Bh-xZ5" firstAttribute="top" secondItem="zbl-Ep-YiV" secondAttribute="top" constant="8" id="ndk-m1-J2X"/>
+                    <constraint firstItem="csY-aU-ngX" firstAttribute="centerY" secondItem="zbl-Ep-YiV" secondAttribute="centerY" id="rvu-To-bbn"/>
+                    <constraint firstItem="BvV-zv-PWZ" firstAttribute="leading" secondItem="yiG-xV-cKo" secondAttribute="leading" id="xEi-sM-M5o"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="giftNameLabel" destination="yiG-xV-cKo" id="VsN-Ue-IAu"/>
+                <outlet property="giftNumLabel" destination="BvV-zv-PWZ" id="V68-RX-Edo"/>
+                <outlet property="iconImageView" destination="yoI-Bh-xZ5" id="ybg-w9-rqu"/>
+                <outlet property="nickNameLabel" destination="csY-aU-ngX" id="zxV-Td-ecJ"/>
+            </connections>
+            <point key="canvasLocation" x="-150" y="-99"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="XJDiscoverCollectionViewCell" customModule="XJ直播" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="169" height="190"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="169" height="190"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123人观看" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlf-Jh-5zX" userLabel="观看人数">
+                        <rect key="frame" x="5" y="170" width="159" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="bSX-gL-mPp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="美女哈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sca-Qe-UlS" userLabel="主播名字">
+                        <rect key="frame" x="5" y="150" width="37" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="home_pic_default" translatesAutoresizingMaskIntoConstraints="NO" id="gPn-vi-ovS" userLabel="主播头像">
+                        <rect key="frame" x="0.0" y="10" width="169" height="135"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_icon_live" translatesAutoresizingMaskIntoConstraints="NO" id="NcJ-bd-i3j" userLabel="是否开播">
+                        <rect key="frame" x="141" y="15" width="23" height="13"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="tlf-Jh-5zX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="9PN-PD-ks3"/>
+                <constraint firstItem="sca-Qe-UlS" firstAttribute="leading" secondItem="tlf-Jh-5zX" secondAttribute="leading" id="LUp-ci-4XR"/>
+                <constraint firstItem="NcJ-bd-i3j" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="Muy-nG-wKN"/>
+                <constraint firstAttribute="trailing" secondItem="gPn-vi-ovS" secondAttribute="trailing" id="RDR-mb-MVE"/>
+                <constraint firstItem="sca-Qe-UlS" firstAttribute="top" secondItem="gPn-vi-ovS" secondAttribute="bottom" constant="5" id="RtK-6y-EDq"/>
+                <constraint firstAttribute="bottom" secondItem="tlf-Jh-5zX" secondAttribute="bottom" constant="8" id="Za2-6r-1UG"/>
+                <constraint firstItem="gPn-vi-ovS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="lPt-te-KLS"/>
+                <constraint firstItem="gPn-vi-ovS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="lx2-D6-WxH"/>
+                <constraint firstAttribute="trailing" secondItem="tlf-Jh-5zX" secondAttribute="trailing" constant="5" id="o4h-VI-vN0"/>
+                <constraint firstItem="tlf-Jh-5zX" firstAttribute="top" secondItem="sca-Qe-UlS" secondAttribute="bottom" constant="5" id="pOo-ny-v2p"/>
+                <constraint firstAttribute="trailing" secondItem="NcJ-bd-i3j" secondAttribute="trailing" constant="5" id="uEK-qj-VFV"/>
+            </constraints>
+            <size key="customSize" width="169" height="190"/>
+            <connections>
+                <outlet property="iconImageView" destination="gPn-vi-ovS" id="wtV-bM-C8c"/>
+                <outlet property="liveImageView" destination="NcJ-bd-i3j" id="x5w-iG-fSX"/>
+                <outlet property="nickNameLabel" destination="sca-Qe-UlS" id="Cdb-0i-CpV"/>
+                <outlet property="onlineLabel" destination="tlf-Jh-5zX" id="pn3-b8-nOQ"/>
+            </connections>
+            <point key="canvasLocation" x="102.5" y="-16"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="home_icon_live" width="23" height="13"/>
+        <image name="home_pic_default" width="255" height="370"/>
+    </resources>
+</document>

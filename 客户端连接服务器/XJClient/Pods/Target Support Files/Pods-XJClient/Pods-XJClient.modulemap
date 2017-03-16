@@ -1,0 +1,6 @@
+framework module Pods_XJClient {
+  umbrella header "Pods-XJClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
