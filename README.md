@@ -11,9 +11,9 @@
 * UITabbarController、UICollectionView、UIScrollView高级使用。
 ```
 ### 效果图如下
+
 ![](https://github.com/Paulpang/XJTV/blob/master/效果图1.gif) 
-
+——–
 ![](https://github.com/Paulpang/XJTV/blob/master/效果图2.gif) 
-
+——–
 ![](https://github.com/Paulpang/XJTV/blob/master/效果图3.gif) 
-
