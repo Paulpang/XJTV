@@ -23,7 +23,6 @@
 		DA296DF11E7795C90079F539 /* XJDiscoverCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA296DEF1E7795C90079F539 /* XJDiscoverCollectionViewCell.xib */; };
 		DA296DF31E77A8C60079F539 /* XJDiscoverContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA296DF21E77A8C60079F539 /* XJDiscoverContentViewModel.swift */; };
 		DA296DF71E77BC730079F539 /* XJBannersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA296DF61E77BC730079F539 /* XJBannersController.swift */; };
-		DA2E31561E7F877800CAD3E3 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2E31551E7F877800CAD3E3 /* IJKMediaFramework.framework */; };
 		DA2E31581E7F888200CAD3E3 /* XJSqliteTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E31571E7F888200CAD3E3 /* XJSqliteTools.swift */; };
 		DA2E315A1E7F88CC00CAD3E3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2E31591E7F88CC00CAD3E3 /* libsqlite3.0.tbd */; };
 		DA2E31631E7F9E6C00CAD3E3 /* XJFucusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E31621E7F9E6C00CAD3E3 /* XJFucusViewController.swift */; };
@@ -86,6 +85,7 @@
 		DA8B072E1DFFC43200B26E34 /* XJHomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8B072C1DFFC43200B26E34 /* XJHomeViewCell.xib */; };
 		DA8B07351DFFCD8B00B26E34 /* XJRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8B07341DFFCD8B00B26E34 /* XJRoomViewController.swift */; };
 		DA8B07371DFFCD9800B26E34 /* XJRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8B07361DFFCD9800B26E34 /* XJRoomViewController.xib */; };
+		DA8BFEFC1E7FB1A900B0A8FF /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8BFEFB1E7FB1A900B0A8FF /* IJKMediaFramework.framework */; };
 		DA8C927E1DFC456A00650BCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C927D1DFC456A00650BCE /* AppDelegate.swift */; };
 		DA8C92851DFC456A00650BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8C92841DFC456A00650BCE /* Assets.xcassets */; };
 		DA8FF6211E0CB60E0024BFCA /* XJChatContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8FF6201E0CB60E0024BFCA /* XJChatContentView.swift */; };
@@ -137,7 +137,6 @@
 		DA296DEF1E7795C90079F539 /* XJDiscoverCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XJDiscoverCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA296DF21E77A8C60079F539 /* XJDiscoverContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJDiscoverContentViewModel.swift; sourceTree = "<group>"; };
 		DA296DF61E77BC730079F539 /* XJBannersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJBannersController.swift; sourceTree = "<group>"; };
-		DA2E31551E7F877800CAD3E3 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		DA2E31571E7F888200CAD3E3 /* XJSqliteTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJSqliteTools.swift; sourceTree = "<group>"; };
 		DA2E31591E7F88CC00CAD3E3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		DA2E315E1E7F89DF00CAD3E3 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
@@ -201,6 +200,7 @@
 		DA8B072C1DFFC43200B26E34 /* XJHomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XJHomeViewCell.xib; sourceTree = "<group>"; };
 		DA8B07341DFFCD8B00B26E34 /* XJRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJRoomViewController.swift; sourceTree = "<group>"; };
 		DA8B07361DFFCD9800B26E34 /* XJRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XJRoomViewController.xib; sourceTree = "<group>"; };
+		DA8BFEFB1E7FB1A900B0A8FF /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		DA8C927A1DFC456A00650BCE /* XJ直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XJ直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8C927D1DFC456A00650BCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8C92841DFC456A00650BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -243,9 +243,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2E315A1E7F88CC00CAD3E3 /* libsqlite3.0.tbd in Frameworks */,
-				DA2E31561E7F877800CAD3E3 /* IJKMediaFramework.framework in Frameworks */,
 				DAA1FEB61E1B8E0000DEC6F3 /* libz.tbd in Frameworks */,
 				DA27A71B1E14CA1B0070E2D6 /* Pods_XJ__.framework in Frameworks */,
+				DA8BFEFC1E7FB1A900B0A8FF /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +384,7 @@
 		DA8B070E1DFE7B6400B26E34 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				DA2E31551E7F877800CAD3E3 /* IJKMediaFramework.framework */,
+				DA8BFEFB1E7FB1A900B0A8FF /* IJKMediaFramework.framework */,
 				DA8B070F1DFE7B7800B26E34 /* QHNormalEmotionSort.plist */,
 				DA8B07101DFE7B7800B26E34 /* QHSohuGifSort.plist */,
 				DA8B07111DFE7B7800B26E34 /* types.plist */,
