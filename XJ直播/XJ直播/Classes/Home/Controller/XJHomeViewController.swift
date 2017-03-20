@@ -86,7 +86,6 @@ extension XJHomeViewController {
         
     }
     
-    
 }
 
 // MARK: - 监听事件
@@ -94,6 +93,8 @@ extension XJHomeViewController {
     
     @objc fileprivate func didClickRightItem() {
         
+        let vc = XJFucusViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

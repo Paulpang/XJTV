@@ -319,7 +319,12 @@ extension XJRoomViewController {
         // 1.改变按钮的状态
         sender.isSelected = !sender.isSelected
         // 2.改变数据库的内容
-    }
+        if sender.isSelected { // 已经关注
+            anchor?.inserIntoDB()
+        } else { // 取消关注
+            anchor?.deleteFromDB()
+        }
+}
 
 
 }

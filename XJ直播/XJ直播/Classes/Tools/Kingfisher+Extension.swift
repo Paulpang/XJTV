@@ -19,8 +19,6 @@ extension UIImageView {
             return
         }
         
-    
-        
         
         kf.setImage(with: url, placeholder: placeHolderName, options: [], progressBlock: nil) {[weak self] (image, _, _, _) in
             

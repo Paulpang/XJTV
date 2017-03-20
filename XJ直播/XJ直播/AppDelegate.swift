@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-
+        // 创建数据库对象
+        setupFocusDB()
         
         window = UIWindow()
         window?.rootViewController = XJMainViewController()
@@ -26,7 +27,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-
-
 }
 
+ // MARK: -- 创建数据库对象
+extension AppDelegate {
+    // 创建数据库对象
+    fileprivate func setupFocusDB() {
+        XJSqliteTools.openDB(String.documentPath + "/focus.sqlite")
+        let createFocusTable = "CREATE TABLE IF NOT EXISTS t_focus ( " +
+            "roomid INTEGER PRIMARY KEY, " +
+            "name TEXT, " +
+            "pic51 TEXT, " +
+            "pic74 TEXT, " +
+            "live INTEGER " +
+        ");"
+        XJSqliteTools.execSQL(createFocusTable)
+    }
+
+}

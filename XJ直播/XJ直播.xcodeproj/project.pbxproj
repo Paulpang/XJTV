@@ -23,9 +23,16 @@
 		DA296DF11E7795C90079F539 /* XJDiscoverCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA296DEF1E7795C90079F539 /* XJDiscoverCollectionViewCell.xib */; };
 		DA296DF31E77A8C60079F539 /* XJDiscoverContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA296DF21E77A8C60079F539 /* XJDiscoverContentViewModel.swift */; };
 		DA296DF71E77BC730079F539 /* XJBannersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA296DF61E77BC730079F539 /* XJBannersController.swift */; };
+		DA2E31561E7F877800CAD3E3 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2E31551E7F877800CAD3E3 /* IJKMediaFramework.framework */; };
+		DA2E31581E7F888200CAD3E3 /* XJSqliteTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E31571E7F888200CAD3E3 /* XJSqliteTools.swift */; };
+		DA2E315A1E7F88CC00CAD3E3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2E31591E7F88CC00CAD3E3 /* libsqlite3.0.tbd */; };
+		DA2E31631E7F9E6C00CAD3E3 /* XJFucusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E31621E7F9E6C00CAD3E3 /* XJFucusViewController.swift */; };
+		DA2E31661E7F9EF400CAD3E3 /* XJFucusViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E31641E7F9EF400CAD3E3 /* XJFucusViewCell.swift */; };
+		DA2E31671E7F9EF400CAD3E3 /* XJFucusViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2E31651E7F9EF400CAD3E3 /* XJFucusViewCell.xib */; };
+		DA2E31691E7FA2E000CAD3E3 /* XJFucusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E31681E7FA2E000CAD3E3 /* XJFucusViewModel.swift */; };
+		DA2E316B1E7FA64400CAD3E3 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E316A1E7FA64400CAD3E3 /* String + Extension.swift */; };
 		DA393B371E25E25F007EB8DD /* XJWeeklyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA393B361E25E25F007EB8DD /* XJWeeklyDetailViewController.swift */; };
 		DA393B391E25EC71007EB8DD /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA393B381E25EC71007EB8DD /* UIImage+Extension.swift */; };
-		DA4EDFF21E26246E00D75E25 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4EDFF11E26246E00D75E25 /* IJKMediaFramework.framework */; };
 		DA51F2F61E08D0C100A89F2A /* XJGiftListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA51F2F51E08D0C100A89F2A /* XJGiftListView.swift */; };
 		DA51F2F81E08D0CC00A89F2A /* XJGiftListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA51F2F71E08D0CC00A89F2A /* XJGiftListView.xib */; };
 		DA51F2FA1E08E7EC00A89F2A /* XJGiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA51F2F91E08E7EC00A89F2A /* XJGiftModel.swift */; };
@@ -130,9 +137,17 @@
 		DA296DEF1E7795C90079F539 /* XJDiscoverCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XJDiscoverCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA296DF21E77A8C60079F539 /* XJDiscoverContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJDiscoverContentViewModel.swift; sourceTree = "<group>"; };
 		DA296DF61E77BC730079F539 /* XJBannersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJBannersController.swift; sourceTree = "<group>"; };
+		DA2E31551E7F877800CAD3E3 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		DA2E31571E7F888200CAD3E3 /* XJSqliteTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJSqliteTools.swift; sourceTree = "<group>"; };
+		DA2E31591E7F88CC00CAD3E3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DA2E315E1E7F89DF00CAD3E3 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		DA2E31621E7F9E6C00CAD3E3 /* XJFucusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJFucusViewController.swift; sourceTree = "<group>"; };
+		DA2E31641E7F9EF400CAD3E3 /* XJFucusViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJFucusViewCell.swift; sourceTree = "<group>"; };
+		DA2E31651E7F9EF400CAD3E3 /* XJFucusViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XJFucusViewCell.xib; sourceTree = "<group>"; };
+		DA2E31681E7FA2E000CAD3E3 /* XJFucusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJFucusViewModel.swift; sourceTree = "<group>"; };
+		DA2E316A1E7FA64400CAD3E3 /* String + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
 		DA393B361E25E25F007EB8DD /* XJWeeklyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJWeeklyDetailViewController.swift; sourceTree = "<group>"; };
 		DA393B381E25EC71007EB8DD /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
-		DA4EDFF11E26246E00D75E25 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		DA51F2F51E08D0C100A89F2A /* XJGiftListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJGiftListView.swift; sourceTree = "<group>"; };
 		DA51F2F71E08D0CC00A89F2A /* XJGiftListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XJGiftListView.xib; sourceTree = "<group>"; };
 		DA51F2F91E08E7EC00A89F2A /* XJGiftModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJGiftModel.swift; sourceTree = "<group>"; };
@@ -227,7 +242,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA4EDFF21E26246E00D75E25 /* IJKMediaFramework.framework in Frameworks */,
+				DA2E315A1E7F88CC00CAD3E3 /* libsqlite3.0.tbd in Frameworks */,
+				DA2E31561E7F877800CAD3E3 /* IJKMediaFramework.framework in Frameworks */,
 				DAA1FEB61E1B8E0000DEC6F3 /* libz.tbd in Frameworks */,
 				DA27A71B1E14CA1B0070E2D6 /* Pods_XJ__.framework in Frameworks */,
 			);
@@ -239,6 +255,7 @@
 		0B6EC6FFDFE5E8D37C5639CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA2E31591E7F88CC00CAD3E3 /* libsqlite3.0.tbd */,
 				DAA1FEB51E1B8E0000DEC6F3 /* libz.tbd */,
 				F95C698DF1715A91625FD63A /* Pods_XJ__.framework */,
 			);
@@ -367,7 +384,7 @@
 		DA8B070E1DFE7B6400B26E34 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				DA4EDFF11E26246E00D75E25 /* IJKMediaFramework.framework */,
+				DA2E31551E7F877800CAD3E3 /* IJKMediaFramework.framework */,
 				DA8B070F1DFE7B7800B26E34 /* QHNormalEmotionSort.plist */,
 				DA8B07101DFE7B7800B26E34 /* QHSohuGifSort.plist */,
 				DA8B07111DFE7B7800B26E34 /* types.plist */,
@@ -532,6 +549,7 @@
 			children = (
 				DA8B06F01DFE425300B26E34 /* XJHomeViewController.swift */,
 				DA8B071F1DFE89C800B26E34 /* XJAnchorViewController.swift */,
+				DA2E31621E7F9E6C00CAD3E3 /* XJFucusViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -549,6 +567,7 @@
 			isa = PBXGroup;
 			children = (
 				DA8B07271DFFA29700B26E34 /* XJHomeViewModel.swift */,
+				DA2E31681E7FA2E000CAD3E3 /* XJFucusViewModel.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -559,6 +578,8 @@
 				DA8B07251DFF8F2F00B26E34 /* XJWaterfallLayout.swift */,
 				DA8B072B1DFFC43200B26E34 /* XJHomeViewCell.swift */,
 				DA8B072C1DFFC43200B26E34 /* XJHomeViewCell.xib */,
+				DA2E31641E7F9EF400CAD3E3 /* XJFucusViewCell.swift */,
+				DA2E31651E7F9EF400CAD3E3 /* XJFucusViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -627,6 +648,8 @@
 				DA8B07211DFE928900B26E34 /* NetworkTools.swift */,
 				DA8B07231DFE962200B26E34 /* Kingfisher+Extension.swift */,
 				DA8856FB1E11111E0037372E /* XJAttributedStringGenerator.swift */,
+				DA2E31571E7F888200CAD3E3 /* XJSqliteTools.swift */,
+				DA2E315E1E7F89DF00CAD3E3 /* Bridge.h */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -645,6 +668,7 @@
 				DA8B07001DFE50C000B26E34 /* Bundle + Extension.swift */,
 				DA8B07021DFE551400B26E34 /* UIColor + Extension.swift */,
 				DA915D3C1E7929C700F2C105 /* UIView + Extension.swift */,
+				DA2E316A1E7FA64400CAD3E3 /* String + Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -835,6 +859,7 @@
 				DA7C49691E24D3A800DA7397 /* XJDetailRankCell.xib in Resources */,
 				DA8B07141DFE7B7800B26E34 /* types.plist in Resources */,
 				DA8B07371DFFCD9800B26E34 /* XJRoomViewController.xib in Resources */,
+				DA2E31671E7F9EF400CAD3E3 /* XJFucusViewCell.xib in Resources */,
 				DA8FF6231E0CB61B0024BFCA /* XJChatContentView.xib in Resources */,
 				DA51F2F81E08D0CC00A89F2A /* XJGiftListView.xib in Resources */,
 				DA27A7321E14DC700070E2D6 /* XJGiftChannelView.xib in Resources */,
@@ -909,6 +934,8 @@
 				DA915D3F1E7A680600F2C105 /* XJSettingViewController.swift in Sources */,
 				DA7C49441E2481F600DA7397 /* XJCustomBtn.swift in Sources */,
 				DA62FA471E25DF53000029ED /* XJSubbankViewController.swift in Sources */,
+				DA2E31581E7F888200CAD3E3 /* XJSqliteTools.swift in Sources */,
+				DA2E31661E7F9EF400CAD3E3 /* XJFucusViewCell.swift in Sources */,
 				DA27A7351E14DC700070E2D6 /* XJGiftMessageModel.swift in Sources */,
 				DA12356C1E0CEBEE002EEB15 /* XJChatContentViewCell.swift in Sources */,
 				DA915D411E7A8ED500F2C105 /* XJTextViewController.swift in Sources */,
@@ -920,6 +947,7 @@
 				DA7C495B1E24B7E500DA7397 /* XJWeekModel.swift in Sources */,
 				DA7C493C1E24753D00DA7397 /* XJMoreInfoView.swift in Sources */,
 				DAB76B201E07C71700719A67 /* XJEmoticonModel.swift in Sources */,
+				DA2E31631E7F9E6C00CAD3E3 /* XJFucusViewController.swift in Sources */,
 				DA8B07241DFE962200B26E34 /* Kingfisher+Extension.swift in Sources */,
 				DAC83D761E79235700A9FBA0 /* XJProfileHeaderView.swift in Sources */,
 				DA8B07071DFE737B00B26E34 /* XJScrollPageView.swift in Sources */,
@@ -944,6 +972,7 @@
 				DA27A7331E14DC700070E2D6 /* XJGiftContainerView.swift in Sources */,
 				DA8B07031DFE551400B26E34 /* UIColor + Extension.swift in Sources */,
 				DA8B07201DFE89C800B26E34 /* XJAnchorViewController.swift in Sources */,
+				DA2E316B1E7FA64400CAD3E3 /* String + Extension.swift in Sources */,
 				DA8B071C1DFE7C2200B26E34 /* BaseModel.swift in Sources */,
 				DA8B072D1DFFC43200B26E34 /* XJHomeViewCell.swift in Sources */,
 				DA8FF62E1E0CB6C40024BFCA /* ytcpsocket.c in Sources */,
@@ -954,6 +983,7 @@
 				DA7C49401E2480A900DA7397 /* XJShareView.swift in Sources */,
 				DA393B371E25E25F007EB8DD /* XJWeeklyDetailViewController.swift in Sources */,
 				DA7C496C1E24D3C700DA7397 /* XJWeeklyRankCell.swift in Sources */,
+				DA2E31691E7FA2E000CAD3E3 /* XJFucusViewModel.swift in Sources */,
 				DA51F2FA1E08E7EC00A89F2A /* XJGiftModel.swift in Sources */,
 				DA8FF6311E0CB6C40024BFCA /* yudpsocket.swift in Sources */,
 				DAB76B211E07C71700719A67 /* XJEmoticonPackage.swift in Sources */,
@@ -1098,6 +1128,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HYXD.XJ--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XJ直播/Classes/Tools/Bridge.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1119,6 +1150,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HYXD.XJ--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XJ直播/Classes/Tools/Bridge.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
