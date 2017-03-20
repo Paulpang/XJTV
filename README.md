@@ -31,3 +31,12 @@ classes ---> sources --->导入这时候是由于项目中缺少IJKMediaFramewor
 ——–
 ![](https://github.com/Paulpang/XJTV/blob/master/效果图3.gif) 
 ——–
+
+
+### 如果您喜欢本项目,请Star & Fork me
+
+如果有疑问,请发邮件告知我: pxj1314@hotmail.com.
+<br>
+我的技术博客: [我的博客](https://Paulpang.github.io),后续我会将代码实现步骤详细的写在[我的博客](https://Paulpang.github.io)里面,欢迎关注.
+<br>
+### 本项目尚未完结,后续会持续更新......
