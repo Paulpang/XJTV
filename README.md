@@ -1,14 +1,19 @@
 # XJTV
-XJ直播是一款基于Swift3.0开发的直播平台,所有接口都是通过抓包工具获得,仅供学习和交流,不用于商业用途.<br>
-
-<strong>效果图如下</strong>
----
-<br><br>
+## 项目介绍
+### XJ直播是一款基于Swift3.0开发的直播平台,所有接口都是通过抓包工具获得,仅供学习和交流,不用于商业用途.
+### XJ直播用到的知识点
+```
+* 整个项目使用MVVM架构 + 响应式编程 + Swift3.0进行编写,主要是练习swift3.0语法以及MVVM的使用;
+* 本项目用到了视频的采集,编码,解码等技术,采用的是目前主流的第三方框架IJKMediaFramework;
+* 在本地利用Socket搭建一个简易的服务器,用来模拟客户端和服务器之间的交互;
+* 项目中主要用到了图文混排、弹幕、粒子动画、自定义动画等技术。
+* Xib、Storyboard、Storyboard Reference、自动布局高级使用。
+* UITabbarController、UICollectionView、UIScrollView高级使用。
+```
+### 效果图如下
 ![](https://github.com/Paulpang/XJTV/blob/master/效果图1.gif) 
----
-<br><br>
+
 ![](https://github.com/Paulpang/XJTV/blob/master/效果图2.gif) 
----
-<br><br>
+
 ![](https://github.com/Paulpang/XJTV/blob/master/效果图3.gif) 
----
+
